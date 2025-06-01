@@ -1,0 +1,126 @@
+body {
+    background-image: url(assets/destination/background-destination-desktop.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+    height: 1px;
+    width: 35%;
+    position: absolute;
+    top: 85px;
+    left: 230px;
+    opacity: 40%;
+    z-index: 99;
+}
+
+.tip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 40px;
+    margin: 0;
+
+}
+
+.stepNum {
+    font-weight: bolder;
+
+}
+
+.stepname {
+    color: white;
+
+}
+
+.steps {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+
+    /* slightly more transparent */
+    backdrop-filter: blur(100px);
+    /* adds the blur effect */
+    -webkit-backdrop-filter: blur(100px);
+    /* for Safari support */
+    /* optional: gives a polished look */
+    padding: 20px;
+    /* padding-left: 40px; */
+    padding-right: 300px;
+}
+
+.main {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.titlenum {
+    color: gray;
+    font-weight: bold;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.planetimage {
+    width: 150%;
+}
+
+.planetname {
+    font-size: 140px;
+    margin: 0;
+}
+
+.marstxt {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    opacity: 60%;
+}
+
+.planetinfo {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    margin-top: 100px;
+    opacity: 60%;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.chosenplanet {
+    border-bottom: 5px solid white;
+}
+
+.km {
+    opacity: 90%;
+}
+
+.month {
+    opacity: 100%;
+}
