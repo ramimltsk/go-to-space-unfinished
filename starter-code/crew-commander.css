@@ -1,0 +1,125 @@
+body {
+    background-image: url(assets/crew/background-crew-desktop.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+    height: 1px;
+    width: 35%;
+    position: absolute;
+    top: 85px;
+    left: 230px;
+    opacity: 40%;
+    z-index: 99;
+}
+
+.tip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 40px;
+    margin: 0;
+
+}
+
+.stepNum {
+    font-weight: bolder;
+
+}
+
+.stepname {
+    color: white;
+
+}
+
+.steps {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+
+    /* slightly more transparent */
+    backdrop-filter: blur(100px);
+    /* adds the blur effect */
+    -webkit-backdrop-filter: blur(100px);
+    /* for Safari support */
+    /* optional: gives a polished look */
+    padding: 20px;
+    /* padding-left: 40px; */
+    padding-right: 300px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.titlenum {
+    color: gray;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.maintxt {
+    color: white;
+    position: absolute;
+    top: 400px;
+}
+
+.role {
+    font-size: 50px;
+    opacity: 60%;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.name {
+    font-size: 90px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.bio {
+    width: 500px;
+    font-size: 30px;
+    opacity: 80%;
+}
+
+.mark {
+    opacity: 0;
+    position: absolute;
+    right: 10px;
+}
+
+.ano {
+    opacity: 0;
+    position: absolute;
+}
+
+.victor {
+    opacity: 0;
+    position: absolute;
+}
+
+.doug {
+    opacity: 1;
+    position: absolute;
+    right: 100px;
+    bottom: -100px;
+    height: 90%;
+}
