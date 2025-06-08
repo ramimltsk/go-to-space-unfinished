@@ -5,6 +5,7 @@ body {
     background-position: center;
     background-size: cover;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .line {
@@ -35,8 +36,26 @@ body {
 
 .stepname {
     color: white;
-
 }
+
+.crewstep {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.crewstep::after {
+    content: "";
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
 
 .steps {
     display: flex;
@@ -57,6 +76,7 @@ body {
 .title {
     font-size: 30px;
     font-weight: lighter;
+    color: white;
 }
 
 .title {
@@ -103,17 +123,30 @@ body {
 .mark {
     opacity: 0;
     position: absolute;
-    right: 10px;
+    right: -200px;
+    bottom: -100px;
+    height: 90%;
+    transition: all 0.2s ease-in-out;
 }
 
 .ano {
     opacity: 0;
     position: absolute;
+    right: -200px;
+    bottom: -100px;
+    height: 90%;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .victor {
     opacity: 0;
     position: absolute;
+    right: -200px;
+    bottom: -100px;
+    height: 90%;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .doug {
@@ -122,4 +155,28 @@ body {
     right: 100px;
     bottom: -100px;
     height: 90%;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.crewchoose {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.option {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.opdoug {
+    opacity: 1;
 }

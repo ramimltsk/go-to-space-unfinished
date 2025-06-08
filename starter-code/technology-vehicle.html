@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Space tourism website</title>
+  <link rel="stylesheet" href="technology.css">
 </head>
+
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="tip">
+    <img src="assets/shared/logo.svg" alt="">
 
-  03 Space launch 101
+    <div class="line"></div>
 
-  1
-  2
-  3
+    <div class="steps">
+      <a href="/index.html">
+        <p class="stepname"><span class="stepNUm">00</span> HOME</p>
+      </a>
+      <a href="/starter-code/destination-moon.html">
+        <p class="stepname"><span class="stepNUm">01</span> DESTINATION</p>
+      </a>
+      <a href="/starter-code/crew-commander.html">
+        <p class="stepname"><span class="stepNUm">02</span> CREW</p>
+      </a>
+      <a href="technology-vehicle.html">
+        <p class="stepname"><span class="stepNUm">03</span> TECHNOLOGY</p>
+      </a>
 
-  The terminology...
-  Launch vehicle
+    </div>
+  </div>
 
-  A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-  payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-  WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-  it's quite an awe-inspiring sight on the launch pad!
+  <h1 class="title"><span class="titlenum">03</span> SPACE LAUNCH</h1>
+
+
+  <div class="main">
+
+
+    <div class="launchsteps">
+      <h1 class="circle first selected">1</h1>
+      <h1 class="circle second">2</h1>
+      <h1 class="circle third">3</h1>
+    </div>
+
+    <div>
+      <p class="thetech">THE TERMINOLOGY...</p>
+      <h1 class="name">LAUNCH VEHICLE</h1>
+      <p class="bio">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from
+        Earth's surface
+        to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation.
+        Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+    </div>
+
+    <img class="mainimg" src="assets/technology/image-launch-vehicle-portrait.jpg" alt="">
+    <img class="capsule" src="assets/technology/image-space-capsule-portrait.jpg" alt="">
+    <img class="port" src="assets/technology/image-spaceport-portrait.jpg" alt="">
+  </div>
+
+  <script src="technology.js"></script>
 </body>
+
 </html>
